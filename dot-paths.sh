@@ -43,15 +43,15 @@ install() {
 
 	echo -e "\e[34;1m font x3 \e[0m"
 
-		if [ "$(sha256sum font.zip | awk '{ print $1 }')" == "b10c834c67ef0a954381084f3bc9f57b818cbc66e2a64701ccf84e07df40adf9" ]; then
+		if [ "$(sha256sum font.zip | awk '{ print $1 }')" == "df3a34139ae3ea761910046b0e2ead87820c57b75f9edb6476eeb3fbb4926841" ]; then
 			echo -e "\e[34;1m file alredy exist \o/ \e[0m"
 		else
 			echo -e "\e[34;1m dowonloading the font ! \e[0m"
-			curl https://en.bestfonts.pro/fonts_files/600c045b6a101229c67525c5/font.zip -O "${dir}"/
+			curl https://ifonts.xyz/wp-content/uploads/2020/04/cartograph-cf-v2.rar -O "${dir}"/
 		fi
 	echo -e "\e[34;1m extracting CartographCF \e[0m"
 		mkdir /usr/local/share/fonts/c
-		bsdtar -C /usr/local/share/fonts/c/ -xf "${dir}"/font.zip "*.ttf"
+		bsdtar -C /usr/local/share/fonts/c/ -xf "${dir}"/cartograph-cf-v2.rar "*.otf"
 }
 
 uninstall() {
