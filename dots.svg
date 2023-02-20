@@ -1,0 +1,21 @@
+<svg width="315.5" height="170" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+        tspan {
+            fill: darkorange;
+            font: 16px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+        }
+
+  </style>
+<text y="-6.8%" xml:space="preserve" textLength="155em">
+<tspan x="0" dy="1.16em">             ▄</tspan>
+<tspan x="0" dy="1.16em">          █▀█</tspan>
+<tspan x="0" dy="1.16em">         ▄▀           █▀</tspan>
+<tspan x="0" dy="1.16em">         █      ▄▄▄▄ ▄▀</tspan>
+<tspan x="0" dy="1.16em">        █           ██▄     ▄</tspan>
+<tspan x="0" dy="1.16em"> ▄▄█▄  █     ▄▄     █  ▀▀   ▀█</tspan>
+<tspan x="0" dy="1.16em">▄▀  ▀ ▄█   ▄▀▀▀█   ▀▄       ▄█▀█</tspan>
+<tspan x="0" dy="1.16em">█     ▀█  ▄▀   █    █     ▄▀▀   █</tspan>
+<tspan x="0" dy="1.16em">▀▄  ▄▄▀▀▄ ▀█▄▄▀      █▄      ▄  █▀</tspan>
+<tspan x="0" dy="1.16em">  ▀▀    ▀              ▀▀    ▀▀▀▀</tspan>
+</text>
+</svg>
