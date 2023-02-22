@@ -6,7 +6,7 @@ Description= autoMount data drive (/permnt/data)
 Where=/permnt/data/
 #Type=ntfs
 #Options=defaults,rw,noatime
-#TimeoutSec=10
+TimeoutSec=10
 
 [Install]
 WantedBy=multi-user.target

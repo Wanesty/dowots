@@ -1,0 +1,12 @@
+[Unit]
+Description=Mount ol btrfs drive (/permnt/ol)
+
+[Mount]
+What=/dev/disk/by-uuid/311e4cad-0bad-4440-816b-d2e47d4b435b
+Where=/permnt/ol/
+Type=btrfs
+Options=rw,relatime,ssd,space_cache=v2
+TimeoutSec=10s
+
+[Install]
+WantedBy=multi-user.target
