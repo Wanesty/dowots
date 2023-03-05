@@ -34,7 +34,7 @@ install() {
 	echo -e "\e[34;1m copying systemd automount files \e[0m"
 		cp -v "${dir}"/permnt-data.mount /etc/systemd/system/permnt-data.mount
 #		cp -v "${dir}"/permnt-data.automount /etc/systemd/system/permnt-data.automount
-		cp -v "${dir}"/permnt-ol.mount /etc/systemd/system/permnt-ol.mount
+		cp -v "${dir}"/permnt-ssdata.mount /etc/systemd/system/permnt-ssdata.mount
 	echo -e "\e[34;1m making mount directories :3 \e[0m"
 		mkdir -p /permnt/data/
 	echo -e "\e[34;1m starting mount services uwu \e[0m"
@@ -42,7 +42,7 @@ install() {
 		wait
 		systemctl enable permnt-data.mount --now
 #		systemctl enable permnt-data.automount --now
-		systemctl enable permnt-ol.mount --now
+		systemctl enable permnt-ssdata.mount --now
 
 	echo -e "\e[34;1m font x3 \e[0m"
 
@@ -66,7 +66,7 @@ uninstall() {
 	echo -e "\e[34;1m Stopping systemd automount \e[0m"
 		systemctl disable permnt-data.mount
 #		systemctl disable permnt-data.automount
-		systemctl disable permnt-ol.mount
+		systemctl disable permnt-ssdata.mount
 
 	echo -e "\e[34;1m Remeowing systemd automount files\e[0m"
 		rm /etc/systemd/system/permnt-*
